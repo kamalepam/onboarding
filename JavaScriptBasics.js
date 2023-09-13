@@ -1,4 +1,4 @@
-//multiplication table 
+//1. multiplication table 
 const number = parseInt(prompt('Enter an integer: '));
 for(let i = 1; i <= 10; i++) {
     const result = i * number;
@@ -6,7 +6,7 @@ for(let i = 1; i <= 10; i++) {
 }
 
 
-//print first n prime numbers
+//2. print first n prime numbers
 let count=0
 let i,j 
 for(j=2;j<=100;j++)
